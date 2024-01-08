@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Management System</title>
+  <style>
+    /* Add your styles here */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+
+    /* Add more styles as needed */
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Library Management System</h1>
+  </header>
+
+  <!-- Admin Section -->
+  <section>
+    <h2>Librarian Admin</h2>
+    <form>
+      <!-- Admin Login -->
+      <label>Login</label>
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+
+    <!-- Add Book -->
+    <form>
+      <h3>Add Book</h3>
+      <!-- Add Book Form Fields -->
+    </form>
+
+    <!-- Update/Delete Book -->
+    <form>
+      <h3>Update/Delete Book</h3>
+      <!-- Update/Delete Book Form Fields -->
+    </form>
+
+    <!-- Issue Book -->
+    <form>
+      <h3>Issue Book for Student</h3>
+      <!-- Issue Book Form Fields -->
+    </form>
+
+    <!-- Return Book Status -->
+    <form>
+      <h3>Return Book Status</h3>
+      <!-- Return Book Form Fields -->
+    </form>
+
+    <!-- Make Fine -->
+    <form>
+      <h3>Make Fine</h3>
+      <!-- Fine Calculation Form Fields -->
+    </form>
+
+    <!-- Update Material -->
+    <form>
+      <h3>Update Material</h3>
+      <!-- Update Material Form Fields -->
+    </form>
+
+    <!-- View Material -->
+    <button>View Material</button>
+  </section>
+
+  <!-- User Section -->
+  <section>
+    <h2>User</h2>
+    <form>
+      <!-- User Login/Register Form Fields -->
+    </form>
+
+    <!-- Search Book -->
+    <form>
+      <h3>Search Book</h3>
+      <!-- Search Book Form Fields -->
+    </form>
+
+    <!-- Borrow History -->
+    <button>My Borrow History</button>
+
+    <!-- Check Fine -->
+    <form>
+      <h3>Check Fine</h3>
+      <!-- Fine Check Form Fields -->
+    </form>
+
+    <!-- Search Material -->
+    <form>
+      <h3>Search Material</h3>
+      <!-- Search Material Form Fields -->
+    </form>
+
+    <!-- Download Material -->
+    <button>Download Material</button>
+
+    <!-- User Profile -->
+    <button>My Profile</button>
+  </section>
+
+</body>
+</html>
