@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Parlour Appointment Booking System</title>
+    <style>
+        /* Your styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            background-color: #ff7e6b;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        form {
+            max-width: 400px;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+
+        label, input, select, textarea {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Beauty Parlour Appointment Booking System</h1>
+    </header>
+
+    <!-- Customer Section -->
+    <section>
+        <h2>Customer</h2>
+        
+        <!-- Search for Beauty Parlour -->
+        <form>
+            <h3>Search for Beauty Parlour</h3>
+            <!-- Search Form Fields -->
+        </form>
+
+        <!-- Book Appointment -->
+        <form>
+            <h3>Book Appointment</h3>
+            <!-- Appointment Booking Form Fields -->
+        </form>
+
+        <!-- View Reservations Calendar -->
+        <button>View Reservations Calendar</button>
+
+        <!-- View Upcoming Reservations -->
+        <button>View Upcoming Reservations</button>
+
+        <!-- View Reservations History -->
+        <button>View Reservations History</button>
+
+        <!-- View Personal Data -->
+        <button>View Personal Data</button>
+    </section>
+
+    <!-- Salon Manager & Staff Section -->
+    <section>
+        <h2>Salon Manager & Staff</h2>
+
+        <!-- View Upcoming Reservations -->
+        <button>View Upcoming Reservations</button>
+
+        <!-- View Reservations Calendar -->
+        <button>View Reservations Calendar</button>
+
+        <!-- Add Reservation -->
+        <form>
+            <h3>Add Reservation</h3>
+            <!-- Add Reservation Form Fields -->
+        </form>
+
+        <!-- Edit Reservations -->
+        <form>
+            <h3>Edit Reservations</h3>
+            <!-- Edit Reservations Form Fields -->
+        </form>
+
+        <!-- Send SMS/Call to Customer -->
+        <button>Send SMS/Call to Customer</button>
+    </section>
+
+    <!-- Feedback Section -->
+    <section>
+        <h2>Feedback</h2>
+        
+        <!-- Leave Feedback -->
+        <form>
+            <h3>Leave Feedback</h3>
+            <!-- Feedback Form Fields -->
+        </form>
+
+        <!-- View Customer Feedback -->
+        <button>View Customer Feedback</button>
+    </section>
+
+    <!-- Payment Section -->
+    <section>
+        <h2>Payment</h2>
+
+        <!-- Accept Online Payments -->
+        <form>
+            <h3>Accept Online Payments</h3>
+            <!-- Payment Form Fields -->
+        </form>
+
+        <!-- Require Full Payment or Deposit -->
+        <form>
+            <h3>Require Full Payment or Deposit</h3>
+            <!-- Full Payment or Deposit Form Fields -->
+        </form>
+
+        <!-- Automatic Cancellation of Unpaid Reservations -->
+        <form>
+            <h3>Automatic Cancellation of Unpaid Reservations</h3>
+            <!-- Cancellation Form Fields -->
+        </form>
+    </section>
+
+</body>
+</html>
