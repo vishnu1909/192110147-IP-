@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Train Reservation System</title>
+  <style>
+    /* Add your styles here */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+
+    /* Add more styles as needed */
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Train Reservation System</h1>
+  </header>
+
+  <!-- User Section -->
+  <section>
+    <h2>User</h2>
+
+    <!-- Login -->
+    <form>
+      <h3>Login</h3>
+      <!-- Login Form Fields -->
+    </form>
+
+    <!-- Reservation Details -->
+    <form>
+      <h3>Reservation Details</h3>
+      <!-- Reservation Form Fields -->
+    </form>
+
+    <!-- Available Trains -->
+    <button>Available Trains</button>
+
+    <!-- Payment -->
+    <form>
+      <h3>Payment</h3>
+      <!-- Payment Form Fields -->
+    </form>
+
+    <!-- PNR Status -->
+    <form>
+      <h3>PNR Status</h3>
+      <!-- PNR Status Form Fields -->
+    </form>
+  </section>
+
+  <!-- Admin Section -->
+  <section>
+    <h2>Admin</h2>
+
+    <!-- Train and Fare Details -->
+    <form>
+      <h3>Train and Fare Details</h3>
+      <!-- Train and Fare Form Fields -->
+    </form>
+
+    <!-- Refund Rules -->
+    <form>
+      <h3>Refund Rules</h3>
+      <!-- Refund Rules Form Fields -->
+    </form>
+
+    <!-- Cancel Ticket -->
+    <form>
+      <h3>Cancel Ticket</h3>
+      <!-- Cancel Ticket Form Fields -->
+    </form>
+  </section>
+
+</body>
+</html>
