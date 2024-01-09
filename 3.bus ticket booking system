@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bus Ticket Booking System</title>
+  <style>
+    /* Add your styles here */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+
+    /* Add more styles as needed */
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bus Ticket Booking System</h1>
+  </header>
+
+  <!-- Admin Section -->
+  <section>
+    <h2>Admin</h2>
+
+    <!-- Bus Information -->
+    <form>
+      <h3>Bus Information</h3>
+      <!-- Bus Information Form Fields -->
+    </form>
+
+    <!-- Registered Users -->
+    <button>Registered Users</button>
+
+    <!-- Manage News -->
+    <button>Manage News</button>
+
+    <!-- Generate Reports -->
+    <button>Generate Reports</button>
+  </section>
+
+  <!-- Login Section -->
+  <section>
+    <h2>Login</h2>
+
+    <!-- User Authentication -->
+    <form>
+      <h3>User Authentication</h3>
+      <!-- Authentication Form Fields -->
+    </form>
+
+    <!-- Change Password -->
+    <form>
+      <h3>Change Password</h3>
+      <!-- Change Password Form Fields -->
+    </form>
+
+    <!-- Forgot Password -->
+    <form>
+      <h3>Forgot Password</h3>
+      <!-- Forgot Password Form Fields -->
+    </form>
+  </section>
+
+  <!-- Registration Section -->
+  <section>
+    <h2>Registration</h2>
+
+    <!-- User Registration -->
+    <form>
+      <h3>User Registration</h3>
+      <!-- Registration Form Fields -->
+    </form>
+  </section>
+
+  <!-- Book Ticket Section -->
+  <section>
+    <h2>Book Ticket</h2>
+
+    <!-- Add New Bus Category -->
+    <form>
+      <h3>Add New Bus Category</h3>
+      <!-- Bus Category Form Fields -->
+    </form>
+
+    <!-- Update Bus Information -->
+    <form>
+      <h3>Update Bus Information</h3>
+      <!-- Update Bus Information Form Fields -->
+    </form>
+
+    <!-- Cancel Booking Ticket -->
+    <form>
+      <h3>Cancel Booking Ticket</h3>
+      <!-- Cancel Booking Form Fields -->
+    </form>
+  </section>
+
+  <!-- Comments Section -->
+  <section>
+    <h2>Comments</h2>
+
+    <!-- Post Comments -->
+    <form>
+      <h3>Post Comments</h3>
+      <!-- Comments Form Fields -->
+    </form>
+  </section>
+
+  <!-- Report Generation Section -->
+  <section>
+    <h2>Report Generation</h2>
+
+    <!-- Generate Report -->
+    <form>
+      <h3>Generate Report</h3>
+      <!-- Report Generation Form Fields -->
+    </form>
+  </section>
+
+</body>
+</html>
