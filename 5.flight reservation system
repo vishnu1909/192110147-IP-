@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Reservation System</title>
+    <style>
+        /* Your styles here */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        form {
+            max-width: 400px;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Flight Reservation System</h1>
+    </header>
+
+    <!-- Administrator User Login Page -->
+    <section>
+        <h2>Administrator User Login</h2>
+        <form action="admin-dashboard.php" method="post">
+            <label for="adminUsername">Username:</label>
+            <input type="text" id="adminUsername" name="adminUsername" required>
+
+            <label for="adminPassword">Password:</label>
+            <input type="password" id="adminPassword" name="adminPassword" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <!-- Forgot Password Page -->
+    <section>
+        <h2>Forgot Password</h2>
+        <form action="reset-password.php" method="post">
+            <label for="forgotEmail">Email:</label>
+            <input type="email" id="forgotEmail" name="forgotEmail" required>
+
+            <button type="submit">Reset Password</button>
+        </form>
+    </section>
+
+    <!-- Search Flight Page -->
+    <section>
+        <h2>Search Flight</h2>
+        <!-- Search form with relevant fields and button -->
+    </section>
+
+    <!-- Book Ticket Page -->
+    <section>
+        <h2>Book Ticket</h2>
+        <!-- Booking form with passenger details, flight options, etc. -->
+    </section>
+
+    <!-- Ticket Payment Page -->
+    <section>
+        <h2>Ticket Payment</h2>
+        <!-- Payment form with payment details -->
+    </section>
+
+    <!-- My Ticket Page -->
+    <section>
+        <h2>My Ticket</h2>
+        <!-- Display user's booked tickets -->
+    </section>
+
+    <!-- Cancel Ticket Page -->
+    <section>
+        <h2>Cancel Ticket</h2>
+        <!-- Form to cancel a booked ticket -->
+    </section>
+
+    <!-- Customer Feedback Page -->
+    <section>
+        <h2>Customer Feedback</h2>
+        <!-- Form to collect customer feedback -->
+    </section>
+
+    <!-- Admin Report Page -->
+    <section>
+        <h2>Admin Report</h2>
+        <!-- Display reports for the administrator -->
+    </section>
+
+</body>
+</html>
