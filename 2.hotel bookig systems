@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Booking System</title>
+  <style>
+    /* Add your styles here */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+
+    /* Add more styles as needed */
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hotel Booking System</h1>
+  </header>
+
+  <!-- User Section -->
+  <section>
+    <h2>Users</h2>
+    
+    <!-- User Registration -->
+    <form>
+      <h3>User Registration</h3>
+      <!-- Registration Form Fields -->
+    </form>
+
+    <!-- View/Modify Profile -->
+    <button>View/Modify Profile</button>
+
+    <!-- Book a Room -->
+    <form>
+      <h3>Book a Room</h3>
+      <!-- Booking Form Fields -->
+    </form>
+
+    <!-- View Booking History -->
+    <button>View Booking History</button>
+
+    <!-- Change Booking -->
+    <form>
+      <h3>Change Booking</h3>
+      <!-- Change Booking Form Fields -->
+    </form>
+
+    <!-- Cancel Booking -->
+    <form>
+      <h3>Cancel Booking</h3>
+      <!-- Cancel Booking Form Fields -->
+    </form>
+
+    <!-- Check Room Availability -->
+    <button>Check Room Availability</button>
+  </section>
+
+  <!-- Administrator Section -->
+  <section>
+    <h2>Administrator</h2>
+
+    <!-- Change Room Quantity/Price -->
+    <form>
+      <h3>Change Room Quantity/Price</h3>
+      <!-- Change Room Form Fields -->
+    </form>
+
+    <!-- Change Booking Details -->
+    <form>
+      <h3>Change Booking Details</h3>
+      <!-- Change Booking Details Form Fields -->
+    </form>
+
+    <!-- Cancel Booking by Admin -->
+    <form>
+      <h3>Cancel Booking by Admin</h3>
+      <!-- Cancel Booking by Admin Form Fields -->
+    </form>
+
+    <!-- Modify Static Pages -->
+    <form>
+      <h3>Modify Static Pages</h3>
+      <!-- Modify Static Pages Form Fields -->
+    </form>
+  </section>
+
+  <!-- Static Pages Section -->
+  <section>
+    <h2>Static Pages</h2>
+    
+    <!-- Basic Room Type Introduction -->
+    <p>Basic Room Type Introduction...</p>
+
+    <!-- Contact Information -->
+    <p>Contact Information...</p>
+
+    <!-- Customer Service Q&A -->
+    <p>Customer Service Q&A...</p>
+
+    <!-- Local Travel and Shipping Guide -->
+    <p>Local Travel and Shipping Guide...</p>
+
+    <!-- Privacy Policy -->
+    <p>Privacy Policy...</p>
+  </section>
+
+</body>
+</html>
