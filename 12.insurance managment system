@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Insurance Management System</h1>
+    </header>
+
+    <main>
+        <section id="agent-section">
+            <h2>Agent</h2>
+            <form id="agentRegisterForm">
+                <label for="agentUsername">Username:</label>
+                <input type="text" id="agentUsername" required>
+                <label for="agentPassword">Password:</label>
+                <input type="password" id="agentPassword" required>
+                <button type="button" onclick="registerAgent()">Register</button>
+            </form>
+
+            <form id="customerCreateForm">
+                <h3>Create Customer</h3>
+                <label for="customerName">Customer Name:</label>
+                <input type="text" id="customerName" required>
+                <label for="customerPolicyDetails">Policy Details:</label>
+                <textarea id="customerPolicyDetails" required></textarea>
+                <button type="button" onclick="createCustomer()">Create Customer</button>
+            </form>
+
+            <button onclick="managerCustomerDetails()">Manage Customer Details</button>
+
+            <button onclick="managePolicyDetails()">Manage Policy Details</button>
+
+            <button onclick="sendSMSAlert()">Send SMS Alert</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Insurance Management System</p>
+    </footer>
+
+    <script>
+        function registerAgent() {
+            const username = document.getElementById('agentUsername').value;
+            const password = document.getElementById('agentPassword').value;
+
+            // Dummy logic to register an agent
+            console.log(Agent registered: ${username});
+        }
+
+        function createCustomer() {
+            const customerName = document.getElementById('customerName').value;
+            const policyDetails = document.getElementById('customerPolicyDetails').value;
+
+            // Dummy logic to create a customer
+            console.log(Customer created: ${customerName}, Policy Details: ${policyDetails});
+        }
+
+        function managerCustomerDetails() {
+            // Dummy logic for managing customer details
+            console.log('Managing customer details');
+        }
+
+        function managePolicyDetails() {
+            // Dummy logic for managing policy details
+            console.log('Managing policy details');
+        }
+
+        function sendSMSAlert() {
+            // Dummy logic to send SMS alert
+            console.log('Sending SMS alert');
+        }
+    </script>
+</body>
+</html>
