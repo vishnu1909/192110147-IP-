@@ -1,0 +1,64 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Wear Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Fashion Wear Shop</h1>
+    </header>
+
+    <main>
+        <section id="categories">
+            <h2>Categories</h2>
+            <!-- Display all available categories for shopping -->
+            <ul>
+                <li>T-Shirts</li>
+                <li>Jeans</li>
+                <li>Dresses</li>
+                <!-- Add more categories as needed -->
+            </ul>
+        </section>
+
+        <section id="subcategories">
+            <h2>Subcategories</h2>
+            <!-- Display subcategories associated with any particular item -->
+            <ul>
+                <li>Casual</li>
+                <li>Formal</li>
+                <li>Summer</li>
+                <!-- Add more subcategories as needed -->
+            </ul>
+        </section>
+
+        <section id="products">
+            <h2>Products</h2>
+            <!-- Display products here -->
+            <ul>
+                <li>T-Shirt A - $20 <button>Add to Cart</button></li>
+                <li>Jeans B - $40 <button>Add to Cart</button></li>
+                <li>Dress C - $60 <button>Add to Cart</button></li>
+                <!-- Add more products as needed -->
+            </ul>
+        </section>
+
+        <section id="cart">
+            <h2>Shopping Cart</h2>
+            <ul id="cartItems">
+            </ul>
+            <button>Checkout</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fashion Wear Shop</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
