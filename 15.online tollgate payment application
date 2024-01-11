@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Toll Gate Payment Application</title>
+    <style>
+        /* Add your CSS styling here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #444;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Online Toll Gate Payment Application</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Admin</a></li>
+                <li><a href="#">User</a></li>
+                <li><a href="#">Toll Gate User</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Admin Section -->
+        <section>
+            <h2>Admin</h2>
+            <ul>
+                <li>Login</li>
+                <li>Manage User & Toll Pass</li>
+                <li>Manage Toll Login</li>
+                <li>Approve Toll Pass</li>
+                <li>Generate QR Code</li>
+                <li>Create Toll Details</li>
+            </ul>
+        </section>
+
+        <!-- User Section -->
+        <section>
+            <h2>User</h2>
+            <ul>
+                <li>Register</li>
+                <li>Login</li>
+                <li>Add Money - eWallet</li>
+                <li>Buy Toll eTicket</li>
+                <li>Apply New Toll Pass</li>
+                <li>Renewal Toll Pass</li>
+                <li>Apply Toll Pass</li>
+                <li>Get QR Code for Toll Pass</li>
+            </ul>
+        </section>
+
+        <!-- Toll Gate User Section -->
+        <section>
+            <h2>Toll Gate User</h2>
+            <ul>
+                <li>Login</li>
+                <li>Scan QR</li>
+                <li>Verify Toll Pass ID</li>
+                <li>Verify Toll Ticket</li>
+                <li>Update Toll Location</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Online Toll Gate Payment Application</p>
+    </footer>
+</body>
+
+</html>
