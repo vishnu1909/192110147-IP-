@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second-hand Goods Marketplace</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #444;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to our Second-hand Goods Marketplace</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">User Management</a></li>
+                <li><a href="#">Category Management</a></li>
+                <li><a href="#">Commodity Management</a></li>
+                <li><a href="#">Order Management</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- User Management Section -->
+        <section>
+            <h2>User Management</h2>
+            <ul>
+                <li>Login successfully and network connection working.</li>
+                <li>Administrator set login account and password.</li>
+                <li>Edit User</li>
+                <li>Delete User</li>
+            </ul>
+        </section>
+
+        <!-- Category Management Section -->
+        <section>
+            <h2>Category Management</h2>
+            <ul>
+                <li>Add category information.</li>
+                <li>Delete category information</li>
+            </ul>
+        </section>
+
+        <!-- Commodity Management Section -->
+        <section>
+            <h2>Commodity Management</h2>
+            <ul>
+                <li>Edit Commodity</li>
+                <li>Delete Commodity</li>
+            </ul>
+        </section>
+
+        <!-- Order Management Section -->
+        <section>
+            <h2>Order Management</h2>
+            <ul>
+                <li>Change logistics status: (Shipped/ Received)</li>
+                <li>Delete Order</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Second-hand Goods Marketplace</p>
+    </footer>
+</body>
+
+</html>
