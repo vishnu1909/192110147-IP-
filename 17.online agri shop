@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Agri Shop</title>
+    <style>
+        /* Add your CSS styling here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #444;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Online Agri Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Farmer</a></li>
+                <li><a href="#">Public</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Farmer Section -->
+        <section>
+            <h2>Farmer</h2>
+            <ul>
+                <li>Login</li>
+                <li>Register</li>
+                <li>OTP Verification</li>
+                <li>Manage Orders</li>
+                <li>Update Order Status</li>
+                <li>Add Product</li>
+                <li>Update/Delete Product</li>
+                <li>Upload Images</li>
+                <li>My Sales</li>
+                <li>Update Shipping Status</li>
+                <li>Logout</li>
+            </ul>
+        </section>
+
+        <!-- Public Section -->
+        <section>
+            <h2>Public</h2>
+            <ul>
+                <li>Register</li>
+                <li>OTP Verification</li>
+                <li>Manage Wallet Balance</li>
+                <li>Search Product</li>
+                <li>Edit/Delete Cart</li>
+                <li>Add/Edit Shipping Address</li>
+                <li>Order Product</li>
+                <li>My Order Status</li>
+                <li>View Shipping Status</li>
+                <li>Login</li>
+                <li>My Account</li>
+                <li>View Product Details</li>
+                <li>Add to Cart</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Online Agri Shop</p>
+    </footer>
+</body>
+
+</html>
