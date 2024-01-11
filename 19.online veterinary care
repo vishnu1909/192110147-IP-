@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Veterinary Care</title>
+    <style>
+        /* Add your CSS styling here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #444;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Online Veterinary Care</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">User</a></li>
+                <li><a href="#">Doctor</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- User Section -->
+        <section>
+            <h2>User</h2>
+            <ul>
+                <li>Register</li>
+                <li>Login</li>
+                <li>Post Complaint</li>
+                <li>My Complaint Status</li>
+                <li>View Vetcure Details</li>
+                <li>View News</li>
+                <li>View Doctor</li>
+                <li>View Report</li>
+                <li>Post Feedback</li>
+                <li>My Profile</li>
+                <li>Make Payment</li>
+            </ul>
+        </section>
+
+        <!-- Doctor Section -->
+        <section>
+            <h2>Doctor</h2>
+            <ul>
+                <li>Register</li>
+                <li>View Complaint</li>
+                <li>Login</li>
+                <li>Manage Cure</li>
+                <li>View User Details</li>
+                <li>Feedback Details</li>
+                <li>Post Solution</li>
+                <li>Manage News</li>
+                <li>View Payment Details</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Online Veterinary Care</p>
+    </footer>
+</body>
+
+</html>
